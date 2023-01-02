@@ -11,4 +11,4 @@ void main()
     a = b;
     b = temp;
     printf("The numbers after swap: \nnum1 = %d \nnum2 = %d\n",a,b);
-}
+}//
