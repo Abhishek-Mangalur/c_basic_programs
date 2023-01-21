@@ -5,5 +5,5 @@ void main()
     a = 100;    // declaring a variable
     b = 200;
     sum = a + b;  // calculating expression  
-    printf("The Sum is = %d",sum);  // printing result
+    printf("The Sum is = %d",sum);  // printing result 
 }
