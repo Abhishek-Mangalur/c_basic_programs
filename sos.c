@@ -16,6 +16,6 @@ int main()
         sum += pow(x,i);
         i = i + 1;
     }
-    printf("sum of series is %d", sum);
+    printf("sum of series is %d", sum); 
     return 0;
 }
