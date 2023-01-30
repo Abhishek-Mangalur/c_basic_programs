@@ -8,5 +8,5 @@ void main()
     printf("Enter the radius:\n");
     scanf("%f",&r);     // read the readius value
     res = PI*r*r;   // calculating result
-    printf("Area of circle = %f", res);  // printing result 
+    printf("Area of circle = %f", res);  // printing result  
 }
