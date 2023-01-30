@@ -5,7 +5,7 @@ void main()
 {
     int n;      // declaration of variable
     printf("Enter the number: \n");
-    scanf("%d", &n);    // intake a no.
+    scanf("%d", &n);    // read the no.
     if(n == 0)
         {
             printf("The no. is neither positive nor negative\n");
@@ -13,14 +13,14 @@ void main()
         }
     else if(n > 0)       // checking the no. is positive or not
         {
-            if(n%2 == 0)
+            if(n%2 == 0)        // checking the no. is even or odd
                 printf("The no. is positive even\n");
             else
                 printf("The no. is positive odd\n");
         }
     else if(n < 0)       // checking the no. is negative
         {
-            if(n%2 == 0)
+            if(n%2 == 0)        // checking the no. is even or odd
                 printf("The no. is negative even\n");
             else
                 printf("The no. is negative odd\n");
