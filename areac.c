@@ -6,7 +6,7 @@ void main()
 {
     float r,res;    // declaring a variable
     printf("Enter the radius:\n");
-    scanf("%f",&r);     // intake of radius
+    scanf("%f",&r);     // read the readius value
     res = PI*r*r;   // calculating result
     printf("Area of circle = %f", res);  // printing result 
 }
