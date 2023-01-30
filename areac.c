@@ -4,8 +4,9 @@
 #define PI 3.14
 void main()
 {
-    float r;
+    float r,res;    // declaring a variable
     printf("Enter the radius:\n");
-    scanf("%f",&r);
-    printf("Area of circle = %f", PI*r*r);
+    scanf("%f",&r);     // intake of radius
+    res = PI*r*r;   // calculating result
+    printf("Area of circle = %f", res);  // printing result 
 }
