@@ -3,11 +3,11 @@
 #include<stdio.h>
 void main()
 {
-    int n;
+    int n;      // declaration of variable
     printf("Enter the n natural no.: ");
-    scanf("%d",&n);
+    scanf("%d",&n);     // reading the no.
     for (int i = 1; i <= n; i++)
     {
-        printf("%d\n",i);
+        printf("%d\n",i);       // printing the result
     }
 }
