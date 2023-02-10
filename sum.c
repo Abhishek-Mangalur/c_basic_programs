@@ -3,15 +3,15 @@
 #include <stdio.h>
 void main()
 {
-    int n,i,sum;
+    int n,i,sum;        // declaration of variable
     printf("Enter the value of n: ");
-    scanf("%d", &n);
+    scanf("%d", &n);        // reading the no.
     sum=0;
     i=1;
-    while(i<=n)
+    while(i<=n)         // condition checking
     {
-        sum += i;
-        i += 1;
+        sum += i;       // addition of n terms
+        i += 1;         // i value is incrementing
     }
-    printf("Sum of first %d natural number is %d\n", n, sum);
+    printf("Sum of first %d natural number is %d\n", n, sum);       // printing the sum
 }
